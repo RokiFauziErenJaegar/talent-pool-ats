@@ -1,0 +1,27 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+
+# ── Berkas runtime / hasil generate (berisi data pribadi!) ────
+# cache.json = hasil analisis CV (nama, nomor, dll) — JANGAN commit
+# data.json  = penilaian & pengaturan
+cache.json
+data.json
+*.log
+
+# ── Data bahasa OCR (otomatis terunduh saat OCR pertama) ──────
+*.traineddata
+*.traineddata.gz
+
+# ── DATA PELAMAR (PRIVASI — JANGAN PERNAH commit) ─────────────
+# Setiap subfolder di /data dianggap data pribadi pelamar.
+/data/*
+!/data/.gitkeep
+
+# ── Environment ───────────────────────────────────────────────
+.env
+
+# ── OS / editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

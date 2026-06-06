@@ -1,0 +1,16 @@
+# Folder ini tempat meletakkan data pelamar.
+#
+# Struktur yang diharapkan (satu subfolder per pelamar):
+#
+#   data/
+#   ├── Budi Santoso/
+#   │   ├── CV_Budi.pdf
+#   │   └── Portofolio_Budi.pdf
+#   ├── Siti Aminah/
+#   │   └── CV - Siti.pdf
+#   └── ...
+#
+# Unduh data dari Google Drive (lihat README), lalu ekstrak ke folder ini.
+# Aktifkan dengan menjalankan: PELAMAR_DIR=./data npm start
+#
+# CATATAN PRIVASI: isi folder ini TIDAK ikut ter-commit ke Git (lihat .gitignore).

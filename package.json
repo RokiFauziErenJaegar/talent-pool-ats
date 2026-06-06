@@ -1,0 +1,33 @@
+{
+  "name": "talent-pool-ats",
+  "version": "1.0.0",
+  "description": "Dashboard rekrutmen & mini-ATS untuk pelamar Fullstack — analisis CV otomatis, perankingan pengalaman, pencocokan lowongan, papan seleksi Kanban, analitik, OCR, dan undangan grup WhatsApp.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ats",
+    "recruitment",
+    "hr",
+    "cv-parser",
+    "resume-parser",
+    "kanban",
+    "ocr",
+    "dashboard",
+    "nodejs",
+    "fullstack"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdf-to-img": "^6.1.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
