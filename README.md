@@ -91,7 +91,7 @@ flowchart LR
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/<username>/talent-pool-ats.git
+git clone https://github.com/RokiFauziErenJaegar/talent-pool-ats.git
 cd talent-pool-ats
 
 # 2. Pasang dependency
